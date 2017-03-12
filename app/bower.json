@@ -1,0 +1,43 @@
+{
+  "name": "app",
+  "description": "app",
+  "main": "Gruntfile.js",
+  "authors": [
+    "lsdt"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/framework",
+    "test",
+    "tests"
+  ],
+  "overrides": {
+    "angular": {
+      "main": [
+        "angular.min.js"
+      ]
+    },
+    "jquery": {
+      "main": [
+        "dist/jquery.min.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.min.js",
+        "dist/css/bootstrap.min.css",
+        "less/bootstrap.less"
+      ]
+    }
+  },
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "angular": "^1.6.3",
+    "bootstrap": "^3.3.7"
+  }
+}

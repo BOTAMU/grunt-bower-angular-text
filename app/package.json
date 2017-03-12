@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "app",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lsdt",
+  "license": "MIT",
+  "devDependencies": {
+    "connect-livereload": "^0.6.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-wiredep": "^3.0.1",
+    "load-grunt-tasks": "^3.5.2",
+    "serve-static": "^1.12.1"
+  }
+}
